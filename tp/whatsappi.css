@@ -1,0 +1,84 @@
+.partie {
+    width: 1500px;
+    height: 2000px;
+    border: 2px solid black;
+    align-items: center;
+}
+
+.bande-verte {
+    width: 1500px;
+    border: 1px solid rgb(14, 68, 14);
+    height: 100px;
+    background-color: rgb(19, 96, 19);
+}
+body{ font-weight: robot,sans-serif;}
+
+.parties {
+    border: 5px solid  #f6f6f6;
+    width: 1400px;
+    height: 600px;
+    position: absolute;
+    top: 5%;
+    left: 3.5%;
+}
+
+.partie-gauche {
+    position: absolute;
+    left: 0%;
+    border-right: 2px solid #f6f6f6;
+    width: 400px;
+    height: 600px; overflow: auto;
+}
+
+.barre-user {
+    height: 50px;
+    height: 68px;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search {
+    background-color: #f6f6f6;
+    height: 45px;
+    border: 1px solid #f6f6f6;
+    align-items: center;
+}
+
+.barre-search {
+    border: 1px solid #f6f6f6;
+    border-radius: 15px;
+}
+
+.barre-search input {
+    width: 250px;
+    height: 25px;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    background-color: white;
+}
+
+.image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.img2 {
+    display: flex;
+}
+.i1{display: flex;}
+.barre-use { background-color: white;
+    height: 80px; display: flex; border-top: 1px solid gray; justify-content: space-between;
+
+}
+.gray{color:gainsboro;}
+.partie-droite {}
+.barre-droite{position: absolute; top: 0%; right: 0%; height: 68px; border: 1px solid #f6f6f6; width: 995px; background-color: #f6f6f6;}
+.fond{ width: 1000px; height: 300px;position: absolute; right: 0%; bottom: 40%;}
+.barre-recherche{position: absolute; bottom: 0%; background-color: #f6f6f6; border: 1px solid yellow;position:absolute; width: 1000px;
+right: 0%;}
+.barre-recherche input{background-color: white; width: 800px; height: 40px; ;}
